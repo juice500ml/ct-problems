@@ -1,0 +1,16 @@
+l = []
+print('숫자를 입력하시오.:')
+l.append(int(input()))
+print('숫자를 입력하시오.:')
+l.append(int(input()))
+print('숫자를 입력하시오.:')
+l.append(int(input()))
+print('숫자를 입력하시오.:')
+l.append(int(input()))
+print('숫자를 입력하시오.:')
+l.append(int(input()))
+print('3 번째로 입력한 값을 출력하고 삭제하시오.')
+print(l[2])
+l.pop(2)
+print('최종 결과 값==' + str(l))
+
